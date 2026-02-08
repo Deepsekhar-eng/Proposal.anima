@@ -1,19 +1,41 @@
-# Enabling GitHub Pages for the Proposal
+# Setup Guide for Proposal.anima
 
-To make the proposal live using GitHub Pages, follow these instructions:
+## GitHub Pages Setup
+1. Navigate to the **Settings** tab of your repository.
+2. Scroll down to the **GitHub Pages** section.
+3. Select the branch you want to use for GitHub Pages (usually `main` or `gh-pages`).
+4. Click **Save**. Your site will be published at `https://<username>.github.io/Proposal.anima/`.
 
-1. **Navigate to your repository**: Go to the [Deepsekhar-eng/Proposal.anima](https://github.com/Deepsekhar-eng/Proposal.anima) repository.
+## Customization Instructions
+- To customize the look and feel of your GitHub Pages site:
+  - Modify the `index.html` file in the root directory.
+  - Adjust the CSS styles located in the `styles` folder.
 
-2. **Access the Settings tab**: Click on the `Settings` tab at the top of the repository page.
+## Feature List
+- **Dynamic Content:** Easily update website content through the repository.
+- **Responsive Design:** The website adapts to different screen sizes.
+- **Custom Themes:** Several themes available for easy customization.
 
-3. **Locate the Pages section**: Scroll down to the `Pages` section in the settings menu.
+## Troubleshooting
+- **Site not publishing:** Ensure your branch is correctly selected in GitHub Pages settings.
+- **Changes not reflecting:** Clear your browser cache or ensure you are checking the correct URL.
 
-4. **Select the source**: Under `Source`, select the branch you wish to publish from (usually `main`), and choose the root folder if necessary.
-
-5. **Save your changes**: Click `Save` to apply the settings.
-
-6. **Access your live site**: After a few minutes, your site will be published at `https://<username>.github.io/<repository>` (replace `<username>` with `Deepsekhar-eng` and `<repository>` with `Proposal.anima`).
-
-7. **Verify the deployment**: Once published, check the URL to ensure everything is working correctly.
-
-8. **Make updates if necessary**: You can continue to update your proposal by making changes in the repository, and it will automatically update on the GitHub Pages site after each commit.
+## Complete Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Deepsekhar-eng/Proposal.anima.git
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd Proposal.anima
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git add .
+   git commit -m "Your message"
+   ```
+4. Push changes back to GitHub:
+   ```bash
+   git push origin main
+   ```
+5. Watch your GitHub Pages site get updated after a few minutes!
